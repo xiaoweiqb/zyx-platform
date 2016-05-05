@@ -18,6 +18,7 @@
         <module>zyx-admin</module>
         <module>zyx-controller</module>
         <module>zyx-pay</module>
+        <module>zyx-scheduler</module>
     </modules>
 
 
