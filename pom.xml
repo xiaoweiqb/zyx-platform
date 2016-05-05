@@ -24,6 +24,9 @@
     <properties>
         <maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+        <commons-httpclient.vsersion>3.1</commons-httpclient.vsersion>
+        <dom4j.version>1.6.1</dom4j.version>
+        <commons-codec.version>1.10</commons-codec.version>
     </properties>
 
     <build>
