@@ -1,4 +1,4 @@
-#zyx-service
+#zyx-dubbo
 
-智悠行 支付平台
+智悠行 分布式服务
 

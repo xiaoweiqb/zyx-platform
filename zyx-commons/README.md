@@ -1,4 +1,4 @@
-#zyx-service
+#zyx-commons
 
-智悠行 支付平台
+智悠行 公共类资源
 

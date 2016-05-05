@@ -1,4 +1,4 @@
-#zyx-service
+#zyx-admin
 
-智悠行 支付平台
+智悠行 服务平台后端
 

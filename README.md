@@ -1,19 +1,8 @@
-#best-sem
+#zyx-platform
 
-------------------
-项目部署需要修改的地方：
--------------------
-**TODO**
+智悠行 后台服务平台
 
-perfect-usercenter >>>> bestIndex.jsp 中的 onclick 连接
+为智悠行下产品提供后台支持
 
-perfect-commons    >>>> AuthConstants.java 中的访问连接
+并支持远程调用，ios，android，其他程序的调用
 
-
-------------
-搜客Web部署说明
--------------
-
-1. 开发版本: ```./deploy-runner.sh -e dev -c best-sem-web-dev```
-2. 测试版本: ```./deploy-runner.sh -e prod -c best-sem-web-beta -p 8081```
-3. 投入生产使用的版本: ```./deploy-runner.sh -e prod -c best-sem-web-prod```
