@@ -19,7 +19,39 @@
         <module>zyx-controller</module>
         <module>zyx-pay</module>
         <module>zyx-scheduler</module>
+        <module>zyx-utils</module>
     </modules>
+    <properties>
+        <maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
+        <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+    </properties>
 
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
 
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+            </plugin>
+
+        </plugins>
+    </build>
 </project>
